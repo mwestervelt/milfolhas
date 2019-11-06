@@ -1,0 +1,2780 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "path": "/dev-404-page/",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/Users/marielwestervelt/Documents/milfolhas1/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/marielwestervelt/Documents/milfolhas1/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8311d09c5ec6318a6ac574d0e2733d7c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/Users/marielwestervelt/Documents/milfolhas1/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/marielwestervelt/Documents/milfolhas1/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "079d8782eed4d897a3429a84231dd1ac",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/Users/marielwestervelt/Documents/milfolhas1/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/marielwestervelt/Documents/milfolhas1/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a5afb30445f698104a50d0956e998ee7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/Users/marielwestervelt/Documents/milfolhas1/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/marielwestervelt/Documents/milfolhas1/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ef2c426cdcc7a0c0bf1d1110a47f23e8",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "/Users/marielwestervelt/Documents/milfolhas1/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/marielwestervelt/Documents/milfolhas1/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "82f887dea467ff70d034d595fb8c9e54",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/Users/marielwestervelt/Documents/milfolhas1/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/marielwestervelt/Documents/milfolhas1/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "25e5df2d3c2c959b191fe39aa098b76a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "3387977b-50a5-5260-959c-26e93e353e8e": {
+      "resolve": "/Users/marielwestervelt/Documents/milfolhas1/node_modules/gatsby-source-filesystem",
+      "id": "3387977b-50a5-5260-959c-26e93e353e8e",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.10",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/marielwestervelt/Documents/milfolhas1/src/pages",
+        "name": "pages"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/marielwestervelt/Documents/milfolhas1/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.10",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "60801ccd93cbc2f658fa3f1ebef20f2c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "e5f45115-bd8b-56b5-bdc8-12afad9fc34f": {
+      "resolve": "/Users/marielwestervelt/Documents/milfolhas1/node_modules/gatsby-source-filesystem",
+      "id": "e5f45115-bd8b-56b5-bdc8-12afad9fc34f",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.10",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/marielwestervelt/Documents/milfolhas1/src/examples",
+        "name": "examples"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/marielwestervelt/Documents/milfolhas1/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.10",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a8a2f9772ccc2ed64081b443ec3ab29f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "fd953ec9-cb3e-5749-b2fd-8f4941f512ea": {
+      "resolve": "/Users/marielwestervelt/Documents/milfolhas1/node_modules/gatsby-transformer-remark",
+      "id": "fd953ec9-cb3e-5749-b2fd-8f4941f512ea",
+      "name": "gatsby-transformer-remark",
+      "version": "2.1.15",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/Users/marielwestervelt/Documents/milfolhas1/node_modules/gatsby-remark-prismjs",
+            "id": "b8d3a2f5-5540-5699-b862-153e57b2c618",
+            "name": "gatsby-remark-prismjs",
+            "version": "3.1.3",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/marielwestervelt/Documents/milfolhas1/node_modules/gatsby-remark-prismjs"
+          },
+          {
+            "resolve": "/Users/marielwestervelt/Documents/milfolhas1/node_modules/gatsby-remark-copy-linked-files",
+            "id": "80533a5b-ad2d-50ff-af51-726674869458",
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "2.0.7",
+            "pluginOptions": {
+              "plugins": [],
+              "ignoreFileExtensions": [
+                "png",
+                "jpg",
+                "jpeg",
+                "bmp",
+                "tiff"
+              ]
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/marielwestervelt/Documents/milfolhas1/node_modules/gatsby-remark-copy-linked-files"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/marielwestervelt/Documents/milfolhas1/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "2.1.15",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.18.2"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.2"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a65d64b325fdccd572b4b34225a32bdb",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "b8d3a2f5-5540-5699-b862-153e57b2c618": {
+      "resolve": "/Users/marielwestervelt/Documents/milfolhas1/node_modules/gatsby-remark-prismjs",
+      "id": "b8d3a2f5-5540-5699-b862-153e57b2c618",
+      "name": "gatsby-remark-prismjs",
+      "version": "3.1.3",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/marielwestervelt/Documents/milfolhas1/node_modules/gatsby-remark-prismjs",
+      "packageJson": {
+        "name": "gatsby-remark-prismjs",
+        "description": "Adds syntax highlighting to code blocks at build time using PrismJS",
+        "version": "3.1.3",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "parse-numeric-range",
+            "version": "^0.0.2"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "aeca6fdaa3f2820c62c0c54434d1d245",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "80533a5b-ad2d-50ff-af51-726674869458": {
+      "resolve": "/Users/marielwestervelt/Documents/milfolhas1/node_modules/gatsby-remark-copy-linked-files",
+      "id": "80533a5b-ad2d-50ff-af51-726674869458",
+      "name": "gatsby-remark-copy-linked-files",
+      "version": "2.0.7",
+      "pluginOptions": {
+        "plugins": [],
+        "ignoreFileExtensions": [
+          "png",
+          "jpg",
+          "jpeg",
+          "bmp",
+          "tiff"
+        ]
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/marielwestervelt/Documents/milfolhas1/node_modules/gatsby-remark-copy-linked-files",
+      "packageJson": {
+        "name": "gatsby-remark-copy-linked-files",
+        "description": "Find files which are linked to from markdown and copy them to the public directory",
+        "version": "2.0.7",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "path-is-inside",
+            "version": "^1.0.2"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "3c40a72d4c344d52032ccd3d31371440",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "63e5f7ff-e5f1-58f7-8e2c-55872ac42281": {
+      "resolve": "/Users/marielwestervelt/Documents/milfolhas1/node_modules/gatsby-plugin-offline",
+      "id": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "name": "gatsby-plugin-offline",
+      "version": "2.0.18",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onPostBuild"
+      ],
+      "browserAPIs": [
+        "registerServiceWorker",
+        "onServiceWorkerActive",
+        "onPostPrefetchPathname"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/marielwestervelt/Documents/milfolhas1/node_modules/gatsby-plugin-offline",
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "2.0.18",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "idb-keyval",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "workbox-build",
+            "version": "^3.6.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">=2.0.53"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "9070d14dced64d18a080889d9be7ee26",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "/Users/marielwestervelt/Documents/milfolhas1/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.4",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/marielwestervelt/Documents/milfolhas1/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e494bc2fdda0f94da01f6df63dc50049",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6b4b5e6a-f4f7-5b34-94ee-1aaec64cab49": {
+      "resolve": "/Users/marielwestervelt/Documents/milfolhas1/node_modules/gatsby-plugin-sass",
+      "id": "6b4b5e6a-f4f7-5b34-94ee-1aaec64cab49",
+      "name": "gatsby-plugin-sass",
+      "version": "2.0.6",
+      "pluginOptions": {
+        "plugins": [],
+        "includePaths": [
+          "/Users/marielwestervelt/Documents/milfolhas1/node_modules",
+          "/Users/marielwestervelt/Documents/milfolhas1/src/"
+        ],
+        "precision": 8
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/marielwestervelt/Documents/milfolhas1/node_modules/gatsby-plugin-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "version": "2.0.6",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "sass",
+          "scss"
+        ],
+        "author": {
+          "name": "Daniel Farrell",
+          "email": "daniel@mobelux.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^7.0.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.9.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "3ca40e0ddbe81a0f0ac7a0fd372d221d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/Users/marielwestervelt/Documents/milfolhas1",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "244ffa71d5dd357bab453bf2ec1b4250",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/marielwestervelt/Documents/milfolhas1",
+      "packageJson": {
+        "name": "gatsby-starter-bootstrap-netlify",
+        "description": "Example Gatsby, Bootstrap, and Netlify CMS project",
+        "version": "1.0.0",
+        "keywords": [
+          "gatsby",
+          "bootstrap",
+          "bootswatch",
+          "netlify"
+        ],
+        "author": "David Konsumer <konsumer@jetboystudio.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "bootstrap",
+            "version": "^4.1.3"
+          },
+          {
+            "name": "bootswatch",
+            "version": "4.*"
+          },
+          {
+            "name": "browserslist",
+            "version": "^4.7.2"
+          },
+          {
+            "name": "caniuse-lite",
+            "version": "^1.0.30001008"
+          },
+          {
+            "name": "gatsby",
+            "version": "^2.0.63"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^2.0.7"
+          },
+          {
+            "name": "gatsby-plugin-intl",
+            "version": "^0.3.1"
+          },
+          {
+            "name": "gatsby-plugin-netlify",
+            "version": "^2.0.6"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^2.0.18"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.4"
+          },
+          {
+            "name": "gatsby-plugin-sass",
+            "version": "^2.0.6"
+          },
+          {
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "^2.0.7"
+          },
+          {
+            "name": "gatsby-remark-prismjs",
+            "version": "^3.1.3"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.10"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^2.1.15"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
+          },
+          {
+            "name": "react",
+            "version": "^16.5.2"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.5.2"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "reactstrap",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "node-sass",
+            "version": "^4.13.0"
+          },
+          {
+            "name": "raw-loader",
+            "version": "^1.0.0"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ecae34e33081bf9da55f6993be2ae603",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a1f9fabb-dc61-5530-bed6-4db50dbe9be7": {
+      "resolve": "/Users/marielwestervelt/Documents/milfolhas1/node_modules/gatsby-plugin-page-creator",
+      "id": "a1f9fabb-dc61-5530-bed6-4db50dbe9be7",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.5",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/marielwestervelt/Documents/milfolhas1/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/marielwestervelt/Documents/milfolhas1/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "3f55f36e8785a9251b54eb2d79cb28c9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Mil Folhas",
+        "author": "Kikkerland Design",
+        "authorLink": "https://kikkerland.com",
+        "disqus": ""
+      },
+      "pathPrefix": "/mariel/milfolhas",
+      "polyfill": true,
+      "buildTime": "2019-11-06T22:43:30.371Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b8f77ec91f7f6d50a41819652125d8dd",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "0ae97777-75f2-51c2-a858-e288337025bf": {
+      "id": "0ae97777-75f2-51c2-a858-e288337025bf",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "2faf163de58213146343da3c3f66d09e",
+        "type": "Directory",
+        "description": "Directory \"src/pages\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/marielwestervelt/Documents/milfolhas1/src/pages",
+      "relativePath": "",
+      "extension": "",
+      "size": 352,
+      "prettySize": "352 B",
+      "modifiedTime": "2019-11-06T19:39:51.391Z",
+      "accessTime": "2019-11-06T19:39:51.475Z",
+      "changeTime": "2019-11-06T19:39:51.391Z",
+      "birthTime": "2019-10-31T18:06:08.756Z",
+      "root": "/",
+      "dir": "/Users/marielwestervelt/Documents/milfolhas1/src",
+      "base": "pages",
+      "ext": "",
+      "name": "pages",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 11,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 7869050,
+      "blocks": 0,
+      "atimeMs": 1573069191475.0857,
+      "mtimeMs": 1573069191391.3914,
+      "ctimeMs": 1573069191391.3914,
+      "birthtimeMs": 1572545168756.2507,
+      "atime": "2019-11-06T19:39:51.475Z",
+      "mtime": "2019-11-06T19:39:51.391Z",
+      "ctime": "2019-11-06T19:39:51.391Z",
+      "birthtime": "2019-10-31T18:06:08.756Z"
+    },
+    "bb7cc55f-826a-572c-914e-c5d7c952003d": {
+      "id": "bb7cc55f-826a-572c-914e-c5d7c952003d",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "758f7497c8da4a7f12203191d86fbf37",
+        "type": "Directory",
+        "description": "Directory \"src/pages/about\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/marielwestervelt/Documents/milfolhas1/src/pages/about",
+      "relativePath": "about",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-10-31T18:06:08.757Z",
+      "accessTime": "2019-11-02T14:06:16.057Z",
+      "changeTime": "2019-10-31T18:06:08.757Z",
+      "birthTime": "2019-10-31T18:06:08.757Z",
+      "root": "/",
+      "dir": "/Users/marielwestervelt/Documents/milfolhas1/src/pages",
+      "base": "about",
+      "ext": "",
+      "name": "about",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 7869052,
+      "blocks": 0,
+      "atimeMs": 1572703576056.5647,
+      "mtimeMs": 1572545168756.8125,
+      "ctimeMs": 1572545168756.8125,
+      "birthtimeMs": 1572545168756.6997,
+      "atime": "2019-11-02T14:06:16.057Z",
+      "mtime": "2019-10-31T18:06:08.757Z",
+      "ctime": "2019-10-31T18:06:08.757Z",
+      "birthtime": "2019-10-31T18:06:08.757Z"
+    },
+    "ff9268a4-90b6-599d-99ce-f36f5332fec7": {
+      "id": "ff9268a4-90b6-599d-99ce-f36f5332fec7",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "7d892b97c5885e219bb0e9e6e4a72e03",
+        "type": "Directory",
+        "description": "Directory \"src/pages/atlantic-forest\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/marielwestervelt/Documents/milfolhas1/src/pages/atlantic-forest",
+      "relativePath": "atlantic-forest",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-11-04T21:00:26.196Z",
+      "accessTime": "2019-11-04T21:00:26.229Z",
+      "changeTime": "2019-11-04T21:00:26.196Z",
+      "birthTime": "2019-11-04T21:00:16.568Z",
+      "root": "/",
+      "dir": "/Users/marielwestervelt/Documents/milfolhas1/src/pages",
+      "base": "atlantic-forest",
+      "ext": "",
+      "name": "atlantic-forest",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8174875,
+      "blocks": 0,
+      "atimeMs": 1572901226228.5864,
+      "mtimeMs": 1572901226195.5764,
+      "ctimeMs": 1572901226195.5764,
+      "birthtimeMs": 1572901216568.2883,
+      "atime": "2019-11-04T21:00:26.229Z",
+      "mtime": "2019-11-04T21:00:26.196Z",
+      "ctime": "2019-11-04T21:00:26.196Z",
+      "birthtime": "2019-11-04T21:00:16.568Z"
+    },
+    "197c0f7c-6822-5411-a103-6a847fe9ddcf": {
+      "id": "197c0f7c-6822-5411-a103-6a847fe9ddcf",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "0ab3316a480c9025ce3da4483b931873",
+        "type": "Directory",
+        "description": "Directory \"src/pages/blog\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/marielwestervelt/Documents/milfolhas1/src/pages/blog",
+      "relativePath": "blog",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-10-31T18:06:08.757Z",
+      "accessTime": "2019-11-02T14:06:16.057Z",
+      "changeTime": "2019-10-31T18:06:08.757Z",
+      "birthTime": "2019-10-31T18:06:08.757Z",
+      "root": "/",
+      "dir": "/Users/marielwestervelt/Documents/milfolhas1/src/pages",
+      "base": "blog",
+      "ext": "",
+      "name": "blog",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 7869054,
+      "blocks": 0,
+      "atimeMs": 1572703576056.554,
+      "mtimeMs": 1572545168757.0247,
+      "ctimeMs": 1572545168757.0247,
+      "birthtimeMs": 1572545168756.9531,
+      "atime": "2019-11-02T14:06:16.057Z",
+      "mtime": "2019-10-31T18:06:08.757Z",
+      "ctime": "2019-10-31T18:06:08.757Z",
+      "birthtime": "2019-10-31T18:06:08.757Z"
+    },
+    "dccc72bb-7e6b-5075-8e54-745fc84b64ed": {
+      "id": "dccc72bb-7e6b-5075-8e54-745fc84b64ed",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8f55234fb166c00e1953d6174ffb2456",
+        "type": "Directory",
+        "description": "Directory \"src/pages/contact\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/marielwestervelt/Documents/milfolhas1/src/pages/contact",
+      "relativePath": "contact",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-11-04T21:21:52.816Z",
+      "accessTime": "2019-11-04T21:28:03.416Z",
+      "changeTime": "2019-11-04T21:21:52.816Z",
+      "birthTime": "2019-11-04T21:21:04.351Z",
+      "root": "/",
+      "dir": "/Users/marielwestervelt/Documents/milfolhas1/src/pages",
+      "base": "contact",
+      "ext": "",
+      "name": "contact",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8176238,
+      "blocks": 0,
+      "atimeMs": 1572902883415.6958,
+      "mtimeMs": 1572902512815.905,
+      "ctimeMs": 1572902512815.905,
+      "birthtimeMs": 1572902464350.852,
+      "atime": "2019-11-04T21:28:03.416Z",
+      "mtime": "2019-11-04T21:21:52.816Z",
+      "ctime": "2019-11-04T21:21:52.816Z",
+      "birthtime": "2019-11-04T21:21:04.351Z"
+    },
+    "0d5175a2-da8b-5c55-975e-9d72a3826efc": {
+      "id": "0d5175a2-da8b-5c55-975e-9d72a3826efc",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b99d45fa8a8e3bb6f1ba995a12175515",
+        "type": "Directory",
+        "description": "Directory \"src/pages/home\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/marielwestervelt/Documents/milfolhas1/src/pages/home",
+      "relativePath": "home",
+      "extension": "",
+      "size": 64,
+      "prettySize": "64 B",
+      "modifiedTime": "2019-11-05T16:05:03.261Z",
+      "accessTime": "2019-11-05T16:05:03.261Z",
+      "changeTime": "2019-11-05T16:05:03.261Z",
+      "birthTime": "2019-11-05T16:05:03.261Z",
+      "root": "/",
+      "dir": "/Users/marielwestervelt/Documents/milfolhas1/src/pages",
+      "base": "home",
+      "ext": "",
+      "name": "home",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 2,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8201362,
+      "blocks": 0,
+      "atimeMs": 1572969903261.2607,
+      "mtimeMs": 1572969903261.2607,
+      "ctimeMs": 1572969903261.2607,
+      "birthtimeMs": 1572969903261.2607,
+      "atime": "2019-11-05T16:05:03.261Z",
+      "mtime": "2019-11-05T16:05:03.261Z",
+      "ctime": "2019-11-05T16:05:03.261Z",
+      "birthtime": "2019-11-05T16:05:03.261Z"
+    },
+    "332af037-2044-5934-b5c6-09a2fa316fe8": {
+      "id": "332af037-2044-5934-b5c6-09a2fa316fe8",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "97be54c4f9ab3a8fee2b2ade65d26fff",
+        "type": "Directory",
+        "description": "Directory \"src/pages/reforestation\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/marielwestervelt/Documents/milfolhas1/src/pages/reforestation",
+      "relativePath": "reforestation",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-11-04T21:21:47.054Z",
+      "accessTime": "2019-11-04T21:21:47.151Z",
+      "changeTime": "2019-11-04T21:21:47.054Z",
+      "birthTime": "2019-11-04T21:20:45.563Z",
+      "root": "/",
+      "dir": "/Users/marielwestervelt/Documents/milfolhas1/src/pages",
+      "base": "reforestation",
+      "ext": "",
+      "name": "reforestation",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8176218,
+      "blocks": 0,
+      "atimeMs": 1572902507150.8093,
+      "mtimeMs": 1572902507053.5469,
+      "ctimeMs": 1572902507053.5469,
+      "birthtimeMs": 1572902445562.8782,
+      "atime": "2019-11-04T21:21:47.151Z",
+      "mtime": "2019-11-04T21:21:47.054Z",
+      "ctime": "2019-11-04T21:21:47.054Z",
+      "birthtime": "2019-11-04T21:20:45.563Z"
+    },
+    "044ebad4-4f86-5429-b21a-0a61b20d14e0": {
+      "id": "044ebad4-4f86-5429-b21a-0a61b20d14e0",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d78772190a236ea033b34f8eb50e0086",
+        "type": "Directory",
+        "description": "Directory \"src/pages/zecar\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/marielwestervelt/Documents/milfolhas1/src/pages/zecar",
+      "relativePath": "zecar",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-11-04T21:22:02.106Z",
+      "accessTime": "2019-11-04T21:28:03.416Z",
+      "changeTime": "2019-11-04T21:22:02.106Z",
+      "birthTime": "2019-11-04T21:20:32.632Z",
+      "root": "/",
+      "dir": "/Users/marielwestervelt/Documents/milfolhas1/src/pages",
+      "base": "zecar",
+      "ext": "",
+      "name": "zecar",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8176211,
+      "blocks": 0,
+      "atimeMs": 1572902883415.7473,
+      "mtimeMs": 1572902522106.3298,
+      "ctimeMs": 1572902522106.3298,
+      "birthtimeMs": 1572902432632.196,
+      "atime": "2019-11-04T21:28:03.416Z",
+      "mtime": "2019-11-04T21:22:02.106Z",
+      "ctime": "2019-11-04T21:22:02.106Z",
+      "birthtime": "2019-11-04T21:20:32.632Z"
+    },
+    "4d171316-9d0a-595a-92b5-2225670c1b04": {
+      "id": "4d171316-9d0a-595a-92b5-2225670c1b04",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "71d832480dba9bc613971fe224805ff8",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/404.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/marielwestervelt/Documents/milfolhas1/src/pages/404.js",
+      "relativePath": "404.js",
+      "extension": "js",
+      "size": 318,
+      "prettySize": "318 B",
+      "modifiedTime": "2019-10-31T18:06:08.757Z",
+      "accessTime": "2019-10-31T18:06:09.365Z",
+      "changeTime": "2019-10-31T18:06:08.757Z",
+      "birthTime": "2019-10-31T18:06:08.756Z",
+      "root": "/",
+      "dir": "/Users/marielwestervelt/Documents/milfolhas1/src/pages",
+      "base": "404.js",
+      "ext": ".js",
+      "name": "404",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 7869051,
+      "blocks": 8,
+      "atimeMs": 1572545169365.2534,
+      "mtimeMs": 1572545168756.5083,
+      "ctimeMs": 1572545168756.5083,
+      "birthtimeMs": 1572545168756.3823,
+      "atime": "2019-10-31T18:06:09.365Z",
+      "mtime": "2019-10-31T18:06:08.757Z",
+      "ctime": "2019-10-31T18:06:08.757Z",
+      "birthtime": "2019-10-31T18:06:08.756Z"
+    },
+    "cd09630e-1a1a-5ab0-9c37-a962b6e8d806": {
+      "id": "cd09630e-1a1a-5ab0-9c37-a962b6e8d806",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "df6c269f18d58ba9a371f388c77f7712",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/marielwestervelt/Documents/milfolhas1/src/pages/index.js",
+      "relativePath": "index.js",
+      "extension": "js",
+      "size": 1731,
+      "prettySize": "1.73 kB",
+      "modifiedTime": "2019-11-06T22:42:04.792Z",
+      "accessTime": "2019-11-06T22:41:12.312Z",
+      "changeTime": "2019-11-06T22:42:04.792Z",
+      "birthTime": "2019-10-31T18:06:08.757Z",
+      "root": "/",
+      "dir": "/Users/marielwestervelt/Documents/milfolhas1/src/pages",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 7869056,
+      "blocks": 8,
+      "atimeMs": 1573080072311.6626,
+      "mtimeMs": 1573080124792.4326,
+      "ctimeMs": 1573080124792.4326,
+      "birthtimeMs": 1572545168757.2698,
+      "atime": "2019-11-06T22:41:12.312Z",
+      "mtime": "2019-11-06T22:42:04.792Z",
+      "ctime": "2019-11-06T22:42:04.792Z",
+      "birthtime": "2019-10-31T18:06:08.757Z"
+    },
+    "f3b6dad7-93be-587a-bacd-ac32dada60a8": {
+      "id": "f3b6dad7-93be-587a-bacd-ac32dada60a8",
+      "children": [
+        "028394e4-9e2d-5100-ab6a-564b57e3873d"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3585d451a5b90d6c81050a890f98aac6",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/about/about.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/marielwestervelt/Documents/milfolhas1/src/pages/about/about.md",
+      "relativePath": "about/about.md",
+      "extension": "md",
+      "size": 5873,
+      "prettySize": "5.87 kB",
+      "modifiedTime": "2019-11-06T17:00:18.392Z",
+      "accessTime": "2019-11-05T18:51:47.251Z",
+      "changeTime": "2019-11-06T17:00:18.392Z",
+      "birthTime": "2019-10-31T18:06:08.757Z",
+      "root": "/",
+      "dir": "/Users/marielwestervelt/Documents/milfolhas1/src/pages/about",
+      "base": "about.md",
+      "ext": ".md",
+      "name": "about",
+      "relativeDirectory": "about",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 7869053,
+      "blocks": 16,
+      "atimeMs": 1572979907251.4983,
+      "mtimeMs": 1573059618392.0657,
+      "ctimeMs": 1573059618392.0657,
+      "birthtimeMs": 1572545168756.804,
+      "atime": "2019-11-05T18:51:47.251Z",
+      "mtime": "2019-11-06T17:00:18.392Z",
+      "ctime": "2019-11-06T17:00:18.392Z",
+      "birthtime": "2019-10-31T18:06:08.757Z"
+    },
+    "fc1ce396-6505-542f-b290-338edcac6adf": {
+      "id": "fc1ce396-6505-542f-b290-338edcac6adf",
+      "children": [
+        "76ba8c03-9d7d-5d4a-8a6c-c91f008e8329"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "666751a54fc0b3f8d47d9e62151ff943",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/atlantic-forest/atlantic-forest.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/marielwestervelt/Documents/milfolhas1/src/pages/atlantic-forest/atlantic-forest.md",
+      "relativePath": "atlantic-forest/atlantic-forest.md",
+      "extension": "md",
+      "size": 2931,
+      "prettySize": "2.93 kB",
+      "modifiedTime": "2019-11-05T18:52:23.591Z",
+      "accessTime": "2019-11-05T18:52:23.690Z",
+      "changeTime": "2019-11-05T18:52:23.591Z",
+      "birthTime": "2019-11-04T21:00:26.196Z",
+      "root": "/",
+      "dir": "/Users/marielwestervelt/Documents/milfolhas1/src/pages/atlantic-forest",
+      "base": "atlantic-forest.md",
+      "ext": ".md",
+      "name": "atlantic-forest",
+      "relativeDirectory": "atlantic-forest",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8174883,
+      "blocks": 8,
+      "atimeMs": 1572979943689.544,
+      "mtimeMs": 1572979943590.9963,
+      "ctimeMs": 1572979943590.9963,
+      "birthtimeMs": 1572901226195.5562,
+      "atime": "2019-11-05T18:52:23.690Z",
+      "mtime": "2019-11-05T18:52:23.591Z",
+      "ctime": "2019-11-05T18:52:23.591Z",
+      "birthtime": "2019-11-04T21:00:26.196Z"
+    },
+    "273a1b27-ddf3-501b-b43a-d68fcd3337b1": {
+      "id": "273a1b27-ddf3-501b-b43a-d68fcd3337b1",
+      "children": [
+        "7295e219-78b5-5df3-b9b6-16ba8096d5cc"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "92e346daab94f3e924a3db0201da539a",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/blog/welcome.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/marielwestervelt/Documents/milfolhas1/src/pages/blog/welcome.md",
+      "relativePath": "blog/welcome.md",
+      "extension": "md",
+      "size": 59,
+      "prettySize": "59 B",
+      "modifiedTime": "2019-10-31T18:51:33.393Z",
+      "accessTime": "2019-10-31T18:59:31.465Z",
+      "changeTime": "2019-10-31T18:51:33.393Z",
+      "birthTime": "2019-10-31T18:06:08.757Z",
+      "root": "/",
+      "dir": "/Users/marielwestervelt/Documents/milfolhas1/src/pages/blog",
+      "base": "welcome.md",
+      "ext": ".md",
+      "name": "welcome",
+      "relativeDirectory": "blog",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 7869055,
+      "blocks": 8,
+      "atimeMs": 1572548371464.9258,
+      "mtimeMs": 1572547893392.5586,
+      "ctimeMs": 1572547893392.5586,
+      "birthtimeMs": 1572545168757.017,
+      "atime": "2019-10-31T18:59:31.465Z",
+      "mtime": "2019-10-31T18:51:33.393Z",
+      "ctime": "2019-10-31T18:51:33.393Z",
+      "birthtime": "2019-10-31T18:06:08.757Z"
+    },
+    "6f89179f-3413-5ffa-84fa-dbdb25569b1d": {
+      "id": "6f89179f-3413-5ffa-84fa-dbdb25569b1d",
+      "children": [
+        "3ff01adc-a7ed-5bfc-882f-5b45441a916f"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9a48cf77a9ec887c4364dc9799f4739f",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/contact/contact.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/marielwestervelt/Documents/milfolhas1/src/pages/contact/contact.md",
+      "relativePath": "contact/contact.md",
+      "extension": "md",
+      "size": 71,
+      "prettySize": "71 B",
+      "modifiedTime": "2019-11-05T18:58:59.125Z",
+      "accessTime": "2019-11-05T18:58:59.224Z",
+      "changeTime": "2019-11-05T18:58:59.125Z",
+      "birthTime": "2019-11-04T21:21:52.816Z",
+      "root": "/",
+      "dir": "/Users/marielwestervelt/Documents/milfolhas1/src/pages/contact",
+      "base": "contact.md",
+      "ext": ".md",
+      "name": "contact",
+      "relativeDirectory": "contact",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8176283,
+      "blocks": 8,
+      "atimeMs": 1572980339223.6301,
+      "mtimeMs": 1572980339125.3818,
+      "ctimeMs": 1572980339125.3818,
+      "birthtimeMs": 1572902512815.8801,
+      "atime": "2019-11-05T18:58:59.224Z",
+      "mtime": "2019-11-05T18:58:59.125Z",
+      "ctime": "2019-11-05T18:58:59.125Z",
+      "birthtime": "2019-11-04T21:21:52.816Z"
+    },
+    "946355fc-1422-514a-b2c7-3662435e5955": {
+      "id": "946355fc-1422-514a-b2c7-3662435e5955",
+      "children": [
+        "3986c2cd-93ce-5f2b-8529-b1a32e4cafa4"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "beea21f5ed9c69df995793baaecc21c6",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/reforestation/reforestation.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/marielwestervelt/Documents/milfolhas1/src/pages/reforestation/reforestation.md",
+      "relativePath": "reforestation/reforestation.md",
+      "extension": "md",
+      "size": 106,
+      "prettySize": "106 B",
+      "modifiedTime": "2019-11-04T21:22:35.501Z",
+      "accessTime": "2019-11-04T21:22:36.707Z",
+      "changeTime": "2019-11-04T21:22:35.501Z",
+      "birthTime": "2019-11-04T21:21:47.054Z",
+      "root": "/",
+      "dir": "/Users/marielwestervelt/Documents/milfolhas1/src/pages/reforestation",
+      "base": "reforestation.md",
+      "ext": ".md",
+      "name": "reforestation",
+      "relativeDirectory": "reforestation",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8176274,
+      "blocks": 8,
+      "atimeMs": 1572902556706.5325,
+      "mtimeMs": 1572902555500.5986,
+      "ctimeMs": 1572902555500.5986,
+      "birthtimeMs": 1572902507053.522,
+      "atime": "2019-11-04T21:22:36.707Z",
+      "mtime": "2019-11-04T21:22:35.501Z",
+      "ctime": "2019-11-04T21:22:35.501Z",
+      "birthtime": "2019-11-04T21:21:47.054Z"
+    },
+    "d8151c1c-0034-54e1-b46e-730a3dc734d1": {
+      "id": "d8151c1c-0034-54e1-b46e-730a3dc734d1",
+      "children": [
+        "9043322c-0471-5abf-9cdc-6be09b0c8429"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3f3d12ce6c36f6963e8dfa5d35081834",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/zecar/zecar.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/marielwestervelt/Documents/milfolhas1/src/pages/zecar/zecar.md",
+      "relativePath": "zecar/zecar.md",
+      "extension": "md",
+      "size": 673,
+      "prettySize": "673 B",
+      "modifiedTime": "2019-11-05T18:53:31.705Z",
+      "accessTime": "2019-11-05T18:53:31.779Z",
+      "changeTime": "2019-11-05T18:53:31.705Z",
+      "birthTime": "2019-11-04T21:22:02.106Z",
+      "root": "/",
+      "dir": "/Users/marielwestervelt/Documents/milfolhas1/src/pages/zecar",
+      "base": "zecar.md",
+      "ext": ".md",
+      "name": "zecar",
+      "relativeDirectory": "zecar",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8176289,
+      "blocks": 8,
+      "atimeMs": 1572980011778.862,
+      "mtimeMs": 1572980011704.5479,
+      "ctimeMs": 1572980011704.5479,
+      "birthtimeMs": 1572902522106.3062,
+      "atime": "2019-11-05T18:53:31.779Z",
+      "mtime": "2019-11-05T18:53:31.705Z",
+      "ctime": "2019-11-05T18:53:31.705Z",
+      "birthtime": "2019-11-04T21:22:02.106Z"
+    },
+    "76ba8c03-9d7d-5d4a-8a6c-c91f008e8329": {
+      "id": "76ba8c03-9d7d-5d4a-8a6c-c91f008e8329",
+      "children": [],
+      "parent": "fc1ce396-6505-542f-b290-338edcac6adf",
+      "internal": {
+        "content": "The Atlantic Forest, considered today a biodiversity hotspot, is most famous for its enormous variety of plant and animal species. Isolated from other major rainforest blocks in South America, the Atlantic Forest has an extremely diverse and unique mix of vegetation and forest types. It also embodies an enormous network of rivers, and vast amounts of fresh water. The Atlantic Forest has the largest variety of trees per square kilometer of all rainforests in the world, over 700 different species and sub species altogether; it houses over 20,000 plant species, 40 percent of which are endemic. Over 4,200 species of vertebrates, of which 6,300 reptiles have been, so far, catalogued, as well as 9,000 species of birds, and more than 4,000 mammals have been identified, and the number of different species of invertebrates surpasses 990,000.\n\nToday, patches of the original Atlantic Forest, or Mata Atlântica, are found along Brazil's Atlantic coast; from the northern state of Rio Grande do Norte, South to Rio Grande do Sul. It extends inland to eastern Paraguay and the province of Misiones in northeastern Argentina, and narrowly along the coast into Uruguay.\n\nAlso included in this hotspot is the offshore archipelago of Fernando de Noronha and several other islands off the Brazilian coast. These forests extend as far as 500-600 kilometers inland and range as high as 2,000 meters above sea level. There are at least three vegetation types in the Atlantic Forest: the lowland forest of the coastal plain or restinga, mountain forests or encosta, and the high-altitude grassland or campo rupestre.\n\nThe Atlantic Forest once stretched more than one million square kilometers (247 million acres) across tropical South America. Today, however, it has been reduced to less than 10 percent of its original area. Direct threats to biodiversity include logging, poaching, wildlife trade, urban and industrial development, and deforestation driven by agriculture and expansion of pastureland.\n\nBeginning with sugarcane plantations and later, coffee plantations, this enormous forest has been losing habitat for hundreds of years. Today, with the increased expansion of urban areas in São Paulo, Minas Gerais, Rio de Janeiro and Bahia, the Atlantic Forest is facing severe pressure from the issues tied to urbanization. But the Atlantic Forest also has a power of regeneration unequal to any rainforest, growing extremely fast and recomposing itself rapidly whenever left alone, free of human interference. The Mil Folhas Project, together with Kikkerland Design believe it is possible to accelerate this process, helping in the recuperation of the Atlantic Forest, and believe each one of us can contribute directly, or indirectly to help preserve, and save rainforests throughout the world.\n\nhttp://www.biodiversityhotspots.org/xp/Hotspots/\n\n \n",
+        "type": "MarkdownRemark",
+        "contentDigest": "01ba7f9fdab53665b81aa7970a59654a",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Atlantic Forest",
+        "contentType": "atlantic-forest",
+        "path": "/atlantic-forest",
+        "_PARENT": "fc1ce396-6505-542f-b290-338edcac6adf"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "The Atlantic Forest, considered today a biodiversity hotspot, is most famous for its enormous variety of plant and animal species. Isolated from other major rainforest blocks in South America, the Atlantic Forest has an extremely diverse and unique mix of vegetation and forest types. It also embodies an enormous network of rivers, and vast amounts of fresh water. The Atlantic Forest has the largest variety of trees per square kilometer of all rainforests in the world, over 700 different species and sub species altogether; it houses over 20,000 plant species, 40 percent of which are endemic. Over 4,200 species of vertebrates, of which 6,300 reptiles have been, so far, catalogued, as well as 9,000 species of birds, and more than 4,000 mammals have been identified, and the number of different species of invertebrates surpasses 990,000.\n\nToday, patches of the original Atlantic Forest, or Mata Atlântica, are found along Brazil's Atlantic coast; from the northern state of Rio Grande do Norte, South to Rio Grande do Sul. It extends inland to eastern Paraguay and the province of Misiones in northeastern Argentina, and narrowly along the coast into Uruguay.\n\nAlso included in this hotspot is the offshore archipelago of Fernando de Noronha and several other islands off the Brazilian coast. These forests extend as far as 500-600 kilometers inland and range as high as 2,000 meters above sea level. There are at least three vegetation types in the Atlantic Forest: the lowland forest of the coastal plain or restinga, mountain forests or encosta, and the high-altitude grassland or campo rupestre.\n\nThe Atlantic Forest once stretched more than one million square kilometers (247 million acres) across tropical South America. Today, however, it has been reduced to less than 10 percent of its original area. Direct threats to biodiversity include logging, poaching, wildlife trade, urban and industrial development, and deforestation driven by agriculture and expansion of pastureland.\n\nBeginning with sugarcane plantations and later, coffee plantations, this enormous forest has been losing habitat for hundreds of years. Today, with the increased expansion of urban areas in São Paulo, Minas Gerais, Rio de Janeiro and Bahia, the Atlantic Forest is facing severe pressure from the issues tied to urbanization. But the Atlantic Forest also has a power of regeneration unequal to any rainforest, growing extremely fast and recomposing itself rapidly whenever left alone, free of human interference. The Mil Folhas Project, together with Kikkerland Design believe it is possible to accelerate this process, helping in the recuperation of the Atlantic Forest, and believe each one of us can contribute directly, or indirectly to help preserve, and save rainforests throughout the world.\n\nhttp://www.biodiversityhotspots.org/xp/Hotspots/\n\n \n",
+      "fileAbsolutePath": "/Users/marielwestervelt/Documents/milfolhas1/src/pages/atlantic-forest/atlantic-forest.md"
+    },
+    "7295e219-78b5-5df3-b9b6-16ba8096d5cc": {
+      "id": "7295e219-78b5-5df3-b9b6-16ba8096d5cc",
+      "children": [],
+      "parent": "273a1b27-ddf3-501b-b43a-d68fcd3337b1",
+      "internal": {
+        "content": "Home Page",
+        "type": "MarkdownRemark",
+        "contentDigest": "0acc71b6fd7a406aa6f5ba1c40c9b928",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Home",
+        "contentType": "blog",
+        "path": "/home",
+        "_PARENT": "273a1b27-ddf3-501b-b43a-d68fcd3337b1"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "Home Page",
+      "fileAbsolutePath": "/Users/marielwestervelt/Documents/milfolhas1/src/pages/blog/welcome.md"
+    },
+    "3ff01adc-a7ed-5bfc-882f-5b45441a916f": {
+      "id": "3ff01adc-a7ed-5bfc-882f-5b45441a916f",
+      "children": [],
+      "parent": "6f89179f-3413-5ffa-84fa-dbdb25569b1d",
+      "internal": {
+        "content": "Contact us!\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "44503fab05ac8b9529b096160182a40e",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Contact",
+        "contentType": "contact",
+        "path": "/contact",
+        "_PARENT": "6f89179f-3413-5ffa-84fa-dbdb25569b1d"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "Contact us!\n",
+      "fileAbsolutePath": "/Users/marielwestervelt/Documents/milfolhas1/src/pages/contact/contact.md"
+    },
+    "3986c2cd-93ce-5f2b-8529-b1a32e4cafa4": {
+      "id": "3986c2cd-93ce-5f2b-8529-b1a32e4cafa4",
+      "children": [],
+      "parent": "946355fc-1422-514a-b2c7-3662435e5955",
+      "internal": {
+        "content": "This is a placeholder page.\n\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "722444c7519dbf659f773586982dba12",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Reforestation",
+        "contentType": "reforestation",
+        "path": "/reforestation",
+        "_PARENT": "946355fc-1422-514a-b2c7-3662435e5955"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "This is a placeholder page.\n\n",
+      "fileAbsolutePath": "/Users/marielwestervelt/Documents/milfolhas1/src/pages/reforestation/reforestation.md"
+    },
+    "9043322c-0471-5abf-9cdc-6be09b0c8429": {
+      "id": "9043322c-0471-5abf-9cdc-6be09b0c8429",
+      "children": [],
+      "parent": "d8151c1c-0034-54e1-b46e-730a3dc734d1",
+      "internal": {
+        "content": "This is a placeholder page.\n\nIn January 2001, to generate funds for the planting of trees for the Projeto Mil Folhas, Guga Casari and Chico Bicalho created ZéCar, an enthusiastic and fun collaboration, styled by the designer Guga Casari.\n\nAll Royalties, plus a generous Matching Fund from Kikkerland Design Inc. are converted entirely for the Mil Folhas Project. So far, ZéCar has helped to plant more than 100 thousand trees native of the Atlantic Forest, and will continue to help for the next several years, until all 300 thousand trees are planted, finalizing the project, so new reforestation projects can begin.",
+        "type": "MarkdownRemark",
+        "contentDigest": "b2074892fa2404b7e50e6a3c5698fde1",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Zécar",
+        "contentType": "zecar",
+        "path": "/zecar",
+        "_PARENT": "d8151c1c-0034-54e1-b46e-730a3dc734d1"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "This is a placeholder page.\n\nIn January 2001, to generate funds for the planting of trees for the Projeto Mil Folhas, Guga Casari and Chico Bicalho created ZéCar, an enthusiastic and fun collaboration, styled by the designer Guga Casari.\n\nAll Royalties, plus a generous Matching Fund from Kikkerland Design Inc. are converted entirely for the Mil Folhas Project. So far, ZéCar has helped to plant more than 100 thousand trees native of the Atlantic Forest, and will continue to help for the next several years, until all 300 thousand trees are planted, finalizing the project, so new reforestation projects can begin.",
+      "fileAbsolutePath": "/Users/marielwestervelt/Documents/milfolhas1/src/pages/zecar/zecar.md"
+    },
+    "cfc1a2be-6fa1-564c-ad38-fedb5711e230": {
+      "id": "cfc1a2be-6fa1-564c-ad38-fedb5711e230",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4d22b0fa6acb99a416d7ee5933ed3722",
+        "type": "Directory",
+        "description": "Directory \"src/examples\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "examples",
+      "absolutePath": "/Users/marielwestervelt/Documents/milfolhas1/src/examples",
+      "relativePath": "",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2019-10-31T18:06:08.756Z",
+      "accessTime": "2019-11-02T14:06:16.057Z",
+      "changeTime": "2019-11-05T19:58:36.806Z",
+      "birthTime": "2019-10-31T18:06:08.755Z",
+      "root": "/",
+      "dir": "/Users/marielwestervelt/Documents/milfolhas1/src",
+      "base": "examples",
+      "ext": "",
+      "name": "examples",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 7869046,
+      "blocks": 0,
+      "atimeMs": 1572703576056.6016,
+      "mtimeMs": 1572545168755.7075,
+      "ctimeMs": 1572983916805.8386,
+      "birthtimeMs": 1572545168755.2856,
+      "atime": "2019-11-02T14:06:16.057Z",
+      "mtime": "2019-10-31T18:06:08.756Z",
+      "ctime": "2019-11-05T19:58:36.806Z",
+      "birthtime": "2019-10-31T18:06:08.755Z"
+    },
+    "58e80cae-cf76-5016-8398-0fc69f2a299c": {
+      "id": "58e80cae-cf76-5016-8398-0fc69f2a299c",
+      "children": [
+        "1ea53b2a-0da5-5565-a796-8e00815242d0"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "611314e92ba4af6e5b84578087d3eef0",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/examples/about.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "examples",
+      "absolutePath": "/Users/marielwestervelt/Documents/milfolhas1/src/examples/about.md",
+      "relativePath": "about.md",
+      "extension": "md",
+      "size": 226,
+      "prettySize": "226 B",
+      "modifiedTime": "2019-10-31T18:06:08.756Z",
+      "accessTime": "2019-11-05T19:58:36.910Z",
+      "changeTime": "2019-10-31T18:06:08.756Z",
+      "birthTime": "2019-10-31T18:06:08.755Z",
+      "root": "/",
+      "dir": "/Users/marielwestervelt/Documents/milfolhas1/src/examples",
+      "base": "about.md",
+      "ext": ".md",
+      "name": "about",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 7869047,
+      "blocks": 8,
+      "atimeMs": 1572983916910.0046,
+      "mtimeMs": 1572545168755.534,
+      "ctimeMs": 1572545168755.534,
+      "birthtimeMs": 1572545168755.4116,
+      "atime": "2019-11-05T19:58:36.910Z",
+      "mtime": "2019-10-31T18:06:08.756Z",
+      "ctime": "2019-10-31T18:06:08.756Z",
+      "birthtime": "2019-10-31T18:06:08.755Z"
+    },
+    "7a879b0e-94b8-5fb0-8ffc-b8eeead2581d": {
+      "id": "7a879b0e-94b8-5fb0-8ffc-b8eeead2581d",
+      "children": [
+        "60ab0e0b-8574-52e9-87b5-39592ef9769d"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "50722a6ba6f497287d8f41ca4a885614",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/examples/blog.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "examples",
+      "absolutePath": "/Users/marielwestervelt/Documents/milfolhas1/src/examples/blog.md",
+      "relativePath": "blog.md",
+      "extension": "md",
+      "size": 269,
+      "prettySize": "269 B",
+      "modifiedTime": "2019-10-31T18:06:08.756Z",
+      "accessTime": "2019-11-05T19:58:36.910Z",
+      "changeTime": "2019-10-31T18:06:08.756Z",
+      "birthTime": "2019-10-31T18:06:08.756Z",
+      "root": "/",
+      "dir": "/Users/marielwestervelt/Documents/milfolhas1/src/examples",
+      "base": "blog.md",
+      "ext": ".md",
+      "name": "blog",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 7869048,
+      "blocks": 8,
+      "atimeMs": 1572983916910.0728,
+      "mtimeMs": 1572545168755.7957,
+      "ctimeMs": 1572545168755.7957,
+      "birthtimeMs": 1572545168755.6936,
+      "atime": "2019-11-05T19:58:36.910Z",
+      "mtime": "2019-10-31T18:06:08.756Z",
+      "ctime": "2019-10-31T18:06:08.756Z",
+      "birthtime": "2019-10-31T18:06:08.756Z"
+    },
+    "1ea53b2a-0da5-5565-a796-8e00815242d0": {
+      "id": "1ea53b2a-0da5-5565-a796-8e00815242d0",
+      "children": [],
+      "parent": "58e80cae-cf76-5016-8398-0fc69f2a299c",
+      "internal": {
+        "content": "This is an example about-page. It has all the possible fields filled out.",
+        "type": "MarkdownRemark",
+        "contentDigest": "0f1d20731a0d711dc100e01dc379d32f",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Example About Page",
+        "contentType": "about",
+        "path": "/examples/about",
+        "hidden": true,
+        "date": "2017-08-08T17:12:33.962Z",
+        "related": [
+          {
+            "post": "/examples/blog"
+          }
+        ],
+        "_PARENT": "58e80cae-cf76-5016-8398-0fc69f2a299c"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "This is an example about-page. It has all the possible fields filled out.",
+      "fileAbsolutePath": "/Users/marielwestervelt/Documents/milfolhas1/src/examples/about.md"
+    },
+    "60ab0e0b-8574-52e9-87b5-39592ef9769d": {
+      "id": "60ab0e0b-8574-52e9-87b5-39592ef9769d",
+      "children": [],
+      "parent": "7a879b0e-94b8-5fb0-8ffc-b8eeead2581d",
+      "internal": {
+        "content": "This is an example blog-post. It has all the possible fields filled out.",
+        "type": "MarkdownRemark",
+        "contentDigest": "17e21e8acb2b4f47e1ebc58471648871",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Example Blog Post",
+        "contentType": "blog",
+        "path": "/examples/blog",
+        "hidden": true,
+        "date": "2017-08-08T17:12:33.962Z",
+        "attachments": [
+          {
+            "filename": "/files/hynocat.jpg"
+          }
+        ],
+        "related": [
+          {
+            "post": "/examples/about"
+          }
+        ],
+        "_PARENT": "7a879b0e-94b8-5fb0-8ffc-b8eeead2581d"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "This is an example blog-post. It has all the possible fields filled out.",
+      "fileAbsolutePath": "/Users/marielwestervelt/Documents/milfolhas1/src/examples/blog.md"
+    },
+    "028394e4-9e2d-5100-ab6a-564b57e3873d": {
+      "id": "028394e4-9e2d-5100-ab6a-564b57e3873d",
+      "children": [],
+      "parent": "f3b6dad7-93be-587a-bacd-ac32dada60a8",
+      "internal": {
+        "content": "22¼27'32.78\" S - 43¼12'43.35\" W - (Alt. 2,600' to 3,100')\n\nThe Mil Folhas Project began in 1996 to reforest a public area of ​​approximately 200,000 m2 (50 ha) between the km 71 and 73 of the interstate highway BR-040 in the Vale Florido region in Petrópolis, Rio de Janeiro State, Brazil. The area, originally covered by a dense Atlantic Forest, had been completely, and unnecessarily cleared by the DNER (Brazilian National Roads Department) in \nthe mid 1970's during the duplication works of the former Estrada do Contorno.\n\nThe project was the initiative of two friends, Guga Casari and Chico Bicalho, to recompose the area which, by then, had a very degraded soil, covered only by tall grasses braquiária, colonião and gordura, and succumbing to frequent fires and erosion, since it had been deprived of its forest cover for over twenty years.\n\nIn the beginning, the project was carried out informally, with the mobilization of friends and residents of the region, in joint efforts that did not always have the desired effect. Even though the techniques used, based on the Secondary Succession system, and perfected by the late prof. Paulo Kageyama were theoretically correct, the project evolved slowly in the early stages, with little money, and, the lack of knowledge on fertilization. The soil was so degraded, and lacking in nutrients that we did not know how to properly fertilize the plants, sometimes using too much, sometimes using too little fertilizer, and not always mixing the right formulas for each application.\n\nAfter attending botanical congresses, and studying really hard, Chico Bicalho (who is not a biologist) found that in the mid 1990's there was no single text available on reforestation with Atlantic Forest species in the annals of agronomy in Brazil, for they were fragmented into various papers, that to be made into one piece of information needed to be assembled like a puzzle. And for this reason, gathering the scientific and technical data for a non-biologist interested in reforestation with Atlantic Forest species was very difficult. \n\nTherefore, a reforestation manual was created with the help of countless people, notably Paulo Kageyama, Maria Lucia Nova da Costa, Tamar Bajgielman, Leonardo Ciuffo Faver, and Orlando Graeff. This manual is very useful for helping anyone to reforest; It is a very technical and detailed text, but written simply and directly, gathered from academic information based on our learning experience throughout the project, and refined for more than fifteen years of research and work in the field. This manual explains every detail of how to develop a reforestation project, and it is included in this site.\n\nA reforestation manual would have made a huge difference in the early years of the project, because not only our path should have been made easier, speeding up the result of the work as a whole, but the entire process could have been a lot less costly, more efficient, and objective. We hope this manual will make life easier for many groups interested in reforesting with Atlantic Forest species.\n\nIn 2001, Guga Casari and Chico Bicalho designed a toy called ZéCar, distributed by Kikkerland Design Inc. of New York, establishing that the royalties from the sale of this product would go entirely for the Mil Folhas Project. Shortly thereafter, a generous matching fund from Kikkerland Design doubled the budget for the project, greatly increasing our planting capacity. Since then, the project has received more than 320,000 trees from over 150 species native to the Atlantic Forest.\n\nSince the year 2000, the project has been working with students from João Kopke Municipal School at Fazenda Inglesa, Petrópolis, in environmental awareness days with groups of more than 350 students of all ages, helping to raise awareness for the entire local population on the importance of the environment, and the preservation of nature. Once a year, students from João Kopke Municipal School  walk a little over two miles from the school building to the planting site, removing the trash along the road, placing signs with environmental preservation phrases, and culminating in the planting of about 1,500 trees. One of the most important aspects of the project is ecologically oriented grassroots education and environmental awareness for every resident.\n\nThe Mil Folhas Project, for being adjacent to two major Atlantic Forest reserves, the Araras Biological Reserve (2,000 ha), and the Tinguá Biological Reserve (26,000 ha), has quickly adapted to the endemic forest environment, and acts as a vital corridor of vegetation between these two important biological reserves. The project also provides a nursery for seedlings with matrices of several important species of rare Atlantic Forest tree species that have been planted, with some already fruiting, such as Palmito jussara (Euterpe edulis), Peroba-de-Campos (Paratecoma peroba), Cambucá (Marlierea edulis), Jequitibá (Cariniana estrellensis), Araucaria (Araucaria angustifolia), Jatobá (Hymenaea courbaril) among many others.\n\nThe project celebrated its 20th anniversary in 2016, and despite the initial difficulties it has made impressive annual progress, when an average of 35 to 37 thousand trees were planted each year between 2004 and 2009. Since 1996, more than 325,000 trees, native of the Atlantic Forest biome, from over 150 different species have already been planted. In addition to reforestation and environmental education, the Mil Folhas Project has established a genetic plant bank, forming a rich matrix for seed collection for new reforestation projects to be implemented. We intend to be an example, and a help, for many more people to plant forests throughout Brazil.\n\nThis project is dedicated with love to Philip and Molly Jenkins.\n\n\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "07040cdab37442a57018cc456b56365e",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "The Mil Folhas Project",
+        "contentType": "about",
+        "path": "/about",
+        "_PARENT": "f3b6dad7-93be-587a-bacd-ac32dada60a8"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "22¼27'32.78\" S - 43¼12'43.35\" W - (Alt. 2,600' to 3,100')\n\nThe Mil Folhas Project began in 1996 to reforest a public area of ​​approximately 200,000 m2 (50 ha) between the km 71 and 73 of the interstate highway BR-040 in the Vale Florido region in Petrópolis, Rio de Janeiro State, Brazil. The area, originally covered by a dense Atlantic Forest, had been completely, and unnecessarily cleared by the DNER (Brazilian National Roads Department) in \nthe mid 1970's during the duplication works of the former Estrada do Contorno.\n\nThe project was the initiative of two friends, Guga Casari and Chico Bicalho, to recompose the area which, by then, had a very degraded soil, covered only by tall grasses braquiária, colonião and gordura, and succumbing to frequent fires and erosion, since it had been deprived of its forest cover for over twenty years.\n\nIn the beginning, the project was carried out informally, with the mobilization of friends and residents of the region, in joint efforts that did not always have the desired effect. Even though the techniques used, based on the Secondary Succession system, and perfected by the late prof. Paulo Kageyama were theoretically correct, the project evolved slowly in the early stages, with little money, and, the lack of knowledge on fertilization. The soil was so degraded, and lacking in nutrients that we did not know how to properly fertilize the plants, sometimes using too much, sometimes using too little fertilizer, and not always mixing the right formulas for each application.\n\nAfter attending botanical congresses, and studying really hard, Chico Bicalho (who is not a biologist) found that in the mid 1990's there was no single text available on reforestation with Atlantic Forest species in the annals of agronomy in Brazil, for they were fragmented into various papers, that to be made into one piece of information needed to be assembled like a puzzle. And for this reason, gathering the scientific and technical data for a non-biologist interested in reforestation with Atlantic Forest species was very difficult. \n\nTherefore, a reforestation manual was created with the help of countless people, notably Paulo Kageyama, Maria Lucia Nova da Costa, Tamar Bajgielman, Leonardo Ciuffo Faver, and Orlando Graeff. This manual is very useful for helping anyone to reforest; It is a very technical and detailed text, but written simply and directly, gathered from academic information based on our learning experience throughout the project, and refined for more than fifteen years of research and work in the field. This manual explains every detail of how to develop a reforestation project, and it is included in this site.\n\nA reforestation manual would have made a huge difference in the early years of the project, because not only our path should have been made easier, speeding up the result of the work as a whole, but the entire process could have been a lot less costly, more efficient, and objective. We hope this manual will make life easier for many groups interested in reforesting with Atlantic Forest species.\n\nIn 2001, Guga Casari and Chico Bicalho designed a toy called ZéCar, distributed by Kikkerland Design Inc. of New York, establishing that the royalties from the sale of this product would go entirely for the Mil Folhas Project. Shortly thereafter, a generous matching fund from Kikkerland Design doubled the budget for the project, greatly increasing our planting capacity. Since then, the project has received more than 320,000 trees from over 150 species native to the Atlantic Forest.\n\nSince the year 2000, the project has been working with students from João Kopke Municipal School at Fazenda Inglesa, Petrópolis, in environmental awareness days with groups of more than 350 students of all ages, helping to raise awareness for the entire local population on the importance of the environment, and the preservation of nature. Once a year, students from João Kopke Municipal School  walk a little over two miles from the school building to the planting site, removing the trash along the road, placing signs with environmental preservation phrases, and culminating in the planting of about 1,500 trees. One of the most important aspects of the project is ecologically oriented grassroots education and environmental awareness for every resident.\n\nThe Mil Folhas Project, for being adjacent to two major Atlantic Forest reserves, the Araras Biological Reserve (2,000 ha), and the Tinguá Biological Reserve (26,000 ha), has quickly adapted to the endemic forest environment, and acts as a vital corridor of vegetation between these two important biological reserves. The project also provides a nursery for seedlings with matrices of several important species of rare Atlantic Forest tree species that have been planted, with some already fruiting, such as Palmito jussara (Euterpe edulis), Peroba-de-Campos (Paratecoma peroba), Cambucá (Marlierea edulis), Jequitibá (Cariniana estrellensis), Araucaria (Araucaria angustifolia), Jatobá (Hymenaea courbaril) among many others.\n\nThe project celebrated its 20th anniversary in 2016, and despite the initial difficulties it has made impressive annual progress, when an average of 35 to 37 thousand trees were planted each year between 2004 and 2009. Since 1996, more than 325,000 trees, native of the Atlantic Forest biome, from over 150 different species have already been planted. In addition to reforestation and environmental education, the Mil Folhas Project has established a genetic plant bank, forming a rich matrix for seed collection for new reforestation projects to be implemented. We intend to be an example, and a help, for many more people to plant forests throughout Brazil.\n\nThis project is dedicated with love to Philip and Molly Jenkins.\n\n\n",
+      "fileAbsolutePath": "/Users/marielwestervelt/Documents/milfolhas1/src/pages/about/about.md"
+    },
+    "SitePage /offline-plugin-app-shell-fallback/": {
+      "jsonName": "offline-plugin-app-shell-fallback-a30",
+      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
+      "path": "/offline-plugin-app-shell-fallback/",
+      "component": "/Users/marielwestervelt/Documents/milfolhas1/node_modules/gatsby-plugin-offline/app-shell.js",
+      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+      "context": {},
+      "pluginCreator___NODE": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "pluginCreatorId": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "componentPath": "/Users/marielwestervelt/Documents/milfolhas1/node_modules/gatsby-plugin-offline/app-shell.js",
+      "id": "SitePage /offline-plugin-app-shell-fallback/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "0adec0bae07cce40b73d9626ab707e83",
+        "description": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /atlantic-forest": {
+      "jsonName": "atlantic-forest-342",
+      "internalComponentName": "ComponentAtlanticForest",
+      "path": "/atlantic-forest",
+      "component": "/Users/marielwestervelt/Documents/milfolhas1/src/templates/atlantic-forest.js",
+      "componentChunkName": "component---src-templates-atlantic-forest-js",
+      "context": {},
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/marielwestervelt/Documents/milfolhas1/src/templates/atlantic-forest.js",
+      "id": "SitePage /atlantic-forest",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b5af366cb077826addf8bb15e42cd9ae",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /home": {
+      "jsonName": "home-485",
+      "internalComponentName": "ComponentHome",
+      "path": "/home",
+      "component": "/Users/marielwestervelt/Documents/milfolhas1/src/templates/blog.js",
+      "componentChunkName": "component---src-templates-blog-js",
+      "context": {},
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/marielwestervelt/Documents/milfolhas1/src/templates/blog.js",
+      "id": "SitePage /home",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9b2380dac71390e94c92580be6f42a37",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /contact": {
+      "jsonName": "contact-906",
+      "internalComponentName": "ComponentContact",
+      "path": "/contact",
+      "component": "/Users/marielwestervelt/Documents/milfolhas1/src/templates/contact.js",
+      "componentChunkName": "component---src-templates-contact-js",
+      "context": {},
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/marielwestervelt/Documents/milfolhas1/src/templates/contact.js",
+      "id": "SitePage /contact",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "34561f0fc7cfa63ca09fb44ea0076465",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /reforestation": {
+      "jsonName": "reforestation-639",
+      "internalComponentName": "ComponentReforestation",
+      "path": "/reforestation",
+      "component": "/Users/marielwestervelt/Documents/milfolhas1/src/templates/reforestation.js",
+      "componentChunkName": "component---src-templates-reforestation-js",
+      "context": {},
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/marielwestervelt/Documents/milfolhas1/src/templates/reforestation.js",
+      "id": "SitePage /reforestation",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e6a963d8a2d69b733f868a98c8809fa1",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /zecar": {
+      "jsonName": "zecar-e78",
+      "internalComponentName": "ComponentZecar",
+      "path": "/zecar",
+      "component": "/Users/marielwestervelt/Documents/milfolhas1/src/templates/zecar.js",
+      "componentChunkName": "component---src-templates-zecar-js",
+      "context": {},
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/marielwestervelt/Documents/milfolhas1/src/templates/zecar.js",
+      "id": "SitePage /zecar",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "95d8686ce6313d6c8dbba12ae20a7f95",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /examples/about": {
+      "jsonName": "examples-about-dec",
+      "internalComponentName": "ComponentExamplesAbout",
+      "path": "/examples/about",
+      "component": "/Users/marielwestervelt/Documents/milfolhas1/src/templates/about.js",
+      "componentChunkName": "component---src-templates-about-js",
+      "context": {},
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/marielwestervelt/Documents/milfolhas1/src/templates/about.js",
+      "id": "SitePage /examples/about",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "1b6425496687f5725652bbf3b334b92b",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /examples/blog": {
+      "jsonName": "examples-blog-00d",
+      "internalComponentName": "ComponentExamplesBlog",
+      "path": "/examples/blog",
+      "component": "/Users/marielwestervelt/Documents/milfolhas1/src/templates/blog.js",
+      "componentChunkName": "component---src-templates-blog-js",
+      "context": {},
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/marielwestervelt/Documents/milfolhas1/src/templates/blog.js",
+      "id": "SitePage /examples/blog",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "96cecdb5196c23d29520ff2b4e65d0ae",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about": {
+      "jsonName": "about-771",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about",
+      "component": "/Users/marielwestervelt/Documents/milfolhas1/src/templates/about.js",
+      "componentChunkName": "component---src-templates-about-js",
+      "context": {},
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/marielwestervelt/Documents/milfolhas1/src/templates/about.js",
+      "id": "SitePage /about",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "58e89c4153d2e9256a93ccd34a29e90a",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/marielwestervelt/Documents/milfolhas1/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "a1f9fabb-dc61-5530-bed6-4db50dbe9be7",
+      "pluginCreatorId": "a1f9fabb-dc61-5530-bed6-4db50dbe9be7",
+      "componentPath": "/Users/marielwestervelt/Documents/milfolhas1/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "8ca4760e3124b032ef33f0875376427e",
+        "description": "a1f9fabb-dc61-5530-bed6-4db50dbe9be7",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/marielwestervelt/Documents/milfolhas1/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "a1f9fabb-dc61-5530-bed6-4db50dbe9be7",
+      "pluginCreatorId": "a1f9fabb-dc61-5530-bed6-4db50dbe9be7",
+      "componentPath": "/Users/marielwestervelt/Documents/milfolhas1/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5bf1bd92f4207f2dcd2d8cb57ed94782",
+        "description": "a1f9fabb-dc61-5530-bed6-4db50dbe9be7",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/marielwestervelt/Documents/milfolhas1/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "/Users/marielwestervelt/Documents/milfolhas1/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5900b8e7bbc7e0cfc7c6f0556dfd4173",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "fe24b9008fdf179b12c4fbee1954506b"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "/about",
+        "/examples/about",
+        "/atlantic-forest",
+        "/home",
+        "/examples/blog",
+        "/contact",
+        "/zecar",
+        "/reforestation",
+        "sq--src-components-layout-index-js"
+      ],
+      "028394e4-9e2d-5100-ab6a-564b57e3873d": [
+        "/about"
+      ],
+      "1ea53b2a-0da5-5565-a796-8e00815242d0": [
+        "/examples/about"
+      ],
+      "76ba8c03-9d7d-5d4a-8a6c-c91f008e8329": [
+        "/atlantic-forest"
+      ],
+      "7295e219-78b5-5df3-b9b6-16ba8096d5cc": [
+        "/home"
+      ],
+      "60ab0e0b-8574-52e9-87b5-39592ef9769d": [
+        "/examples/blog"
+      ],
+      "3ff01adc-a7ed-5bfc-882f-5b45441a916f": [
+        "/contact"
+      ],
+      "3986c2cd-93ce-5f2b-8529-b1a32e4cafa4": [
+        "/reforestation"
+      ],
+      "9043322c-0471-5abf-9cdc-6be09b0c8429": [
+        "/zecar"
+      ]
+    },
+    "connections": {
+      "MarkdownRemark": [
+        null,
+        "/home",
+        "/examples/blog",
+        "/",
+        null
+      ]
+    }
+  },
+  "jsonDataPaths": {
+    "sq--src-components-layout-index-js": 2677988954,
+    "index": "461/path---index-6a9-zCcJjsHMU79mj21U5fVmliWEX2U",
+    "examples-about-dec": "951/path---examples-about-dec-def-kc4VuC5SyDBfc6IPwbeDwJvKhQ",
+    "about-771": "967/path---about-771-2fe-3k0YrrZfJXCTQ3fwFOs1WM9A",
+    "home-485": "574/path---home-485-f2a-b3iw5Ko2aU34OMHiQSWUN0DrvC4",
+    "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
+    "examples-blog-00d": "747/path---examples-blog-00-d-642-KY5qMlQgjM3SOCYmmpxiLB1XrU",
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "atlantic-forest-342": "492/path---atlantic-forest-342-7ba-qMowjoOWZoBYe5cBoFZ4THajz0k",
+    "contact-906": "251/path---contact-906-086-SboNuJXqqYhstfnovGS89qQRq4",
+    "zecar-e78": "472/path---zecar-e-78-73f-ULrGijWn4XdxYSq8RcLnlq6s2c",
+    "reforestation-639": "3/path---reforestation-639-9f3-vdp4qsxLiw9saZ0w2khmiPfeY",
+    "en-about-6cf": "828/path---en-about-6-cf-2cf-wsgVjCt5X8U770gmcLf3Lh36dE",
+    "en-home-fee": "389/path---en-home-fee-661-DDkJTVZIu5v1wD88QNmlgzNQlw",
+    "en-reforestation-4ff": "266/path---en-reforestation-4-ff-ac9-gbQ6WhQBVg1jta1sjLuMY6wiLvI",
+    "en-zecar-0b3": "238/path---en-zecar-0-b-3-e00-6gcg1q5VibE5Av357YmhhAR63sg",
+    "en-contact-fde": "128/path---en-contact-fde-b40-Fry4laQs4AEof25eNv2lBJM",
+    "en-atlantic-forest-b39": "347/path---en-atlantic-forest-b-39-bda-6u5iCPd9NRJSIm0nA6k1hWAWw",
+    "en-examples-blog-983": "62/path---en-examples-blog-983-79a-dMVR1HTdxLkfFU5scP1RhluH8A",
+    "en-examples-about-10d": "190/path---en-examples-about-10-d-d64-uluEIpDdx3pFQJt2yxaUWV452m0",
+    "en-dev-404-page-6c3": "128/path---en-dev-404-page-6-c-3-ced-fq1iM4ZY0jec7y6zMgRRoD0",
+    "en-404-c3b": "391/path---en-404-c-3-b-f89-Ls2fymcJiaZ3GpEdv2DG83Kj5ZY",
+    "en-404-html-a17": "752/path---en-404-html-a-17-590-SfPYchEiI08xmqSNZD7uQCgYlo",
+    "en-310": "349/path---en-310-dec-ZaXC1uImFhKErEf48yvEnUD13Nc",
+    "de-4f4": "51/path---de-4-f-4-0ac-hMcnfd3PUx0I7SxFEgLiePTadA",
+    "de-atlantic-forest-c6c": "212/path---de-atlantic-forest-c-6-c-c8c-OKcVA8mjOxmFyTJJJebXyKAr96s",
+    "de-about-b50": "761/path---de-about-b-50-bcd-hKG3lM6b1c6F3VfzrUu07MQxk8w",
+    "de-examples-about-df9": "568/path---de-examples-about-df-9-cb4-GfzrCdvarFVBSIQBAlfY22CY0Pw",
+    "de-home-528": "582/path---de-home-528-246-0tb5YJEoHDNzdCOR2ydGC7DL8EI",
+    "de-examples-blog-ae6": "735/path---de-examples-blog-ae-6-b32-sku932fhknKtsMsRcE7RzVGqD0",
+    "de-contact-0c5": "905/path---de-contact-0-c-5-50d-xeEuhKMzA92KYxwMJSBcrvtW6CY",
+    "de-zecar-f81": "639/path---de-zecar-f-81-43d-l9EOZHkDvZzFprzDofWG9pYpE",
+    "de-reforestation-a70": "972/path---de-reforestation-a-70-89f-ZyAAJsf54pI6mo4mWhbEtBlW61M",
+    "de-dev-404-page-1b5": "607/path---de-dev-404-page-1-b-5-0f2-KLIGgyCdxYERWyGiopVtqv1jA",
+    "de-404-843": "525/path---de-404-843-0b9-n8RlKicnlJH6hNZU1DkHK03FXkw",
+    "de-404-html-55b": "25/path---de-404-html-55-b-7b0-h2FBnoQsPfqAiItYDEopO00pPd0",
+    "en-offline-plugin-app-shell-fallback-05d": "837/path---en-offline-plugin-app-shell-fallback-05-d-961-nEV1Sw71Z0WAMB5rxxrCW1lI2lU",
+    "de-offline-plugin-app-shell-fallback-105": "310/path---de-offline-plugin-app-shell-fallback-105-c71-pgStdwZy3qD7vDrsRhDEQ647E",
+    "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E"
+  },
+  "components": {
+    "/Users/marielwestervelt/Documents/milfolhas1/src/templates/about.js": {
+      "query": "query AboutPage(\n  $path: String!\n) {\n  markdownRemark(frontmatter: {path: {eq: $path}}) {\n    html\n    frontmatter {\n      path\n      title\n    }\n  }\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "componentPath": "/Users/marielwestervelt/Documents/milfolhas1/src/templates/about.js"
+    },
+    "/Users/marielwestervelt/Documents/milfolhas1/src/templates/atlantic-forest.js": {
+      "query": "query atlanticForestPage(\n  $path: String!\n) {\n  markdownRemark(frontmatter: {path: {eq: $path}}) {\n    html\n    frontmatter {\n      path\n      title\n    }\n  }\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "componentPath": "/Users/marielwestervelt/Documents/milfolhas1/src/templates/atlantic-forest.js"
+    },
+    "/Users/marielwestervelt/Documents/milfolhas1/src/templates/blog.js": {
+      "query": "query BlogPostByPath(\n  $path: String!\n) {\n  site {\n    siteMetadata {\n      disqus\n    }\n  }\n  markdownRemark(frontmatter: {path: {eq: $path}}) {\n    html\n    frontmatter {\n      path\n      date(formatString: \"MMMM DD, YYYY\")\n      title\n      attachments {\n        filename\n      }\n      related {\n        post\n      }\n    }\n  }\n  allMarkdownRemark {\n    edges {\n      node {\n        frontmatter {\n          title\n          path\n        }\n      }\n    }\n  }\n}\n",
+      "componentPath": "/Users/marielwestervelt/Documents/milfolhas1/src/templates/blog.js"
+    },
+    "/Users/marielwestervelt/Documents/milfolhas1/src/templates/contact.js": {
+      "query": "query ContactPage(\n  $path: String!\n) {\n  markdownRemark(frontmatter: {path: {eq: $path}}) {\n    html\n    frontmatter {\n      path\n      title\n    }\n  }\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "componentPath": "/Users/marielwestervelt/Documents/milfolhas1/src/templates/contact.js"
+    },
+    "/Users/marielwestervelt/Documents/milfolhas1/src/templates/reforestation.js": {
+      "query": "query ReforestationPage(\n  $path: String!\n) {\n  markdownRemark(frontmatter: {path: {eq: $path}}) {\n    html\n    frontmatter {\n      path\n      title\n    }\n  }\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "componentPath": "/Users/marielwestervelt/Documents/milfolhas1/src/templates/reforestation.js"
+    },
+    "/Users/marielwestervelt/Documents/milfolhas1/src/templates/zecar.js": {
+      "query": "query ZecarPage(\n  $path: String!\n) {\n  markdownRemark(frontmatter: {path: {eq: $path}}) {\n    html\n    frontmatter {\n      path\n      title\n    }\n  }\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "componentPath": "/Users/marielwestervelt/Documents/milfolhas1/src/templates/zecar.js"
+    },
+    "/Users/marielwestervelt/Documents/milfolhas1/src/pages/404.js": {
+      "query": "",
+      "componentPath": "/Users/marielwestervelt/Documents/milfolhas1/src/pages/404.js"
+    },
+    "/Users/marielwestervelt/Documents/milfolhas1/src/pages/index.js": {
+      "query": "query IndexQuery {\n  allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}) {\n    edges {\n      node {\n        excerpt(pruneLength: 400)\n        id\n        frontmatter {\n          title\n          contentType\n          date(formatString: \"MMMM DD, YYYY\")\n          path\n          hidden\n        }\n      }\n    }\n  }\n}\n",
+      "componentPath": "/Users/marielwestervelt/Documents/milfolhas1/src/pages/index.js"
+    },
+    "/Users/marielwestervelt/Documents/milfolhas1/node_modules/gatsby-plugin-offline/app-shell.js": {
+      "query": "",
+      "componentPath": "/Users/marielwestervelt/Documents/milfolhas1/node_modules/gatsby-plugin-offline/app-shell.js"
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-layout-index-js": {
+      "name": "LayoutIndexQuery",
+      "componentPath": "/Users/marielwestervelt/Documents/milfolhas1/src/components/layout/index.js",
+      "id": "sq--src-components-layout-index-js",
+      "jsonName": "sq--src-components-layout-index-js",
+      "query": "query LayoutIndexQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "hash": 2677988954
+    }
+  }
+}
