@@ -10,7 +10,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import 'prismjs/themes/prism-twilight.css'
 
 // main site style
-import './juxtapose.css'
+
 import './index.scss'
 
 const TemplateWrapper = ({ children, data }) => {

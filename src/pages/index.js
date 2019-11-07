@@ -7,7 +7,7 @@ import vista1 from '../components/layout/vista1.jpg'
 import vista2 from '../components/layout/vistaold.jpg'
 import { Helmet } from "react-helmet"
 
-import styles from '../components/layout/juxtapose.css'
+
 
 
 
@@ -21,7 +21,7 @@ const IndexPage = ({ data }) => {
         <React.Fragment>
           <Helmet>
             <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
-          <link rel="stylesheet" src={styles} />
+        
           </Helmet>
           <div className="juxtapose">
           <img alt="1996 vista" src={vista2} />
